@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5108BF321E0CC20600EB9FB9 /* 纯音乐花的秘语.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF291E0CC20600EB9FB9 /* 纯音乐花的秘语.mp3 */; };
+		5108BF331E0CC20600EB9FB9 /* 涟漪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF2A1E0CC20600EB9FB9 /* 涟漪.mp3 */; };
+		5108BF341E0CC20600EB9FB9 /* 莫扎特摇篮曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF2B1E0CC20600EB9FB9 /* 莫扎特摇篮曲.mp3 */; };
+		5108BF351E0CC20600EB9FB9 /* 泉水叮咚响.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF2C1E0CC20600EB9FB9 /* 泉水叮咚响.mp3 */; };
+		5108BF361E0CC20600EB9FB9 /* 维也纳绮想曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF2D1E0CC20600EB9FB9 /* 维也纳绮想曲.mp3 */; };
+		5108BF371E0CC20600EB9FB9 /* 夕阳.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF2E1E0CC20600EB9FB9 /* 夕阳.mp3 */; };
+		5108BF381E0CC20600EB9FB9 /* 夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF2F1E0CC20600EB9FB9 /* 夜曲.mp3 */; };
+		5108BF391E0CC20600EB9FB9 /* Invitatio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF301E0CC20600EB9FB9 /* Invitatio.mp3 */; };
+		5108BF3A1E0CC20600EB9FB9 /* wakeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5108BF311E0CC20600EB9FB9 /* wakeup.mp3 */; };
+		5124B8E21E231F4D0068809B /* NSString+Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8CC1E231F4D0068809B /* NSString+Alarm.m */; };
+		5124B8E31E231F4D0068809B /* NSString+Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8CC1E231F4D0068809B /* NSString+Alarm.m */; };
+		5124B8E41E231F4D0068809B /* NSString+Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8CC1E231F4D0068809B /* NSString+Alarm.m */; };
+		5124B8E51E231F4D0068809B /* XWAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8CE1E231F4D0068809B /* XWAlarm.m */; };
+		5124B8E61E231F4D0068809B /* XWAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8CE1E231F4D0068809B /* XWAlarm.m */; };
+		5124B8E71E231F4D0068809B /* XWAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8CE1E231F4D0068809B /* XWAlarm.m */; };
+		5124B8E81E231F4D0068809B /* XWAlarmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D01E231F4D0068809B /* XWAlarmManager.m */; };
+		5124B8E91E231F4D0068809B /* XWAlarmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D01E231F4D0068809B /* XWAlarmManager.m */; };
+		5124B8EA1E231F4D0068809B /* XWAlarmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D01E231F4D0068809B /* XWAlarmManager.m */; };
+		5124B8EB1E231F4D0068809B /* XWAlarmListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D21E231F4D0068809B /* XWAlarmListCell.m */; };
+		5124B8EC1E231F4D0068809B /* XWAlarmListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D21E231F4D0068809B /* XWAlarmListCell.m */; };
+		5124B8ED1E231F4D0068809B /* XWAlarmListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D21E231F4D0068809B /* XWAlarmListCell.m */; };
+		5124B8EE1E231F4D0068809B /* XWAlarmListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D31E231F4D0068809B /* XWAlarmListCell.xib */; };
+		5124B8EF1E231F4D0068809B /* XWAlarmListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D31E231F4D0068809B /* XWAlarmListCell.xib */; };
+		5124B8F01E231F4D0068809B /* XWAlarmListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D31E231F4D0068809B /* XWAlarmListCell.xib */; };
+		5124B8F11E231F4D0068809B /* XWAlarmPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D51E231F4D0068809B /* XWAlarmPickerCell.m */; };
+		5124B8F21E231F4D0068809B /* XWAlarmPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D51E231F4D0068809B /* XWAlarmPickerCell.m */; };
+		5124B8F31E231F4D0068809B /* XWAlarmPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D51E231F4D0068809B /* XWAlarmPickerCell.m */; };
+		5124B8F41E231F4D0068809B /* XWAlarmPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D61E231F4D0068809B /* XWAlarmPickerCell.xib */; };
+		5124B8F51E231F4D0068809B /* XWAlarmPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D61E231F4D0068809B /* XWAlarmPickerCell.xib */; };
+		5124B8F61E231F4D0068809B /* XWAlarmPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D61E231F4D0068809B /* XWAlarmPickerCell.xib */; };
+		5124B8F71E231F4D0068809B /* XWAlarmSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D81E231F4D0068809B /* XWAlarmSettingCell.m */; };
+		5124B8F81E231F4D0068809B /* XWAlarmSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D81E231F4D0068809B /* XWAlarmSettingCell.m */; };
+		5124B8F91E231F4D0068809B /* XWAlarmSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8D81E231F4D0068809B /* XWAlarmSettingCell.m */; };
+		5124B8FA1E231F4D0068809B /* XWAlarmSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D91E231F4D0068809B /* XWAlarmSettingCell.xib */; };
+		5124B8FB1E231F4D0068809B /* XWAlarmSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D91E231F4D0068809B /* XWAlarmSettingCell.xib */; };
+		5124B8FC1E231F4D0068809B /* XWAlarmSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8D91E231F4D0068809B /* XWAlarmSettingCell.xib */; };
+		5124B8FD1E231F4D0068809B /* XWAlarmListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8DB1E231F4D0068809B /* XWAlarmListTableViewController.m */; };
+		5124B8FE1E231F4D0068809B /* XWAlarmListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8DB1E231F4D0068809B /* XWAlarmListTableViewController.m */; };
+		5124B8FF1E231F4D0068809B /* XWAlarmListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8DB1E231F4D0068809B /* XWAlarmListTableViewController.m */; };
+		5124B9001E231F4D0068809B /* XWAlarmListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8DC1E231F4D0068809B /* XWAlarmListTableViewController.xib */; };
+		5124B9011E231F4D0068809B /* XWAlarmListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8DC1E231F4D0068809B /* XWAlarmListTableViewController.xib */; };
+		5124B9021E231F4D0068809B /* XWAlarmListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8DC1E231F4D0068809B /* XWAlarmListTableViewController.xib */; };
+		5124B9031E231F4D0068809B /* XWAlarmSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8DE1E231F4D0068809B /* XWAlarmSettingTableViewController.m */; };
+		5124B9041E231F4D0068809B /* XWAlarmSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8DE1E231F4D0068809B /* XWAlarmSettingTableViewController.m */; };
+		5124B9051E231F4D0068809B /* XWAlarmSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8DE1E231F4D0068809B /* XWAlarmSettingTableViewController.m */; };
+		5124B9061E231F4D0068809B /* XWAlarmSettingTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8DF1E231F4D0068809B /* XWAlarmSettingTableViewController.xib */; };
+		5124B9071E231F4D0068809B /* XWAlarmSettingTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8DF1E231F4D0068809B /* XWAlarmSettingTableViewController.xib */; };
+		5124B9081E231F4D0068809B /* XWAlarmSettingTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5124B8DF1E231F4D0068809B /* XWAlarmSettingTableViewController.xib */; };
+		5124B9091E231F4D0068809B /* XWSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8E11E231F4D0068809B /* XWSelectionTableViewController.m */; };
+		5124B90A1E231F4D0068809B /* XWSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8E11E231F4D0068809B /* XWSelectionTableViewController.m */; };
+		5124B90B1E231F4D0068809B /* XWSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5124B8E11E231F4D0068809B /* XWSelectionTableViewController.m */; };
+		51296BEA1E14FF2300648ED7 /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51296BE91E14FF2300648ED7 /* DXAlertView.m */; };
+		5161FE641E0111D900028DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5161FE631E0111D900028DFE /* main.m */; };
+		5161FE671E0111D900028DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5161FE661E0111D900028DFE /* AppDelegate.m */; };
+		5161FE6F1E0111D900028DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5161FE6E1E0111D900028DFE /* Assets.xcassets */; };
+		5161FE721E0111D900028DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5161FE701E0111D900028DFE /* LaunchScreen.storyboard */; };
+		5161FE7D1E0111D900028DFE /* AlarmClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5161FE7C1E0111D900028DFE /* AlarmClockTests.m */; };
+		5161FE881E0111D900028DFE /* AlarmClockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5161FE871E0111D900028DFE /* AlarmClockUITests.m */; };
+		516FDABD1E07BB0A00413CA3 /* XWDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FDABC1E07BB0A00413CA3 /* XWDataBaseManager.m */; };
+		516FDABF1E07BB3500413CA3 /* create_table.sql in Resources */ = {isa = PBXBuildFile; fileRef = 516FDABE1E07BB3500413CA3 /* create_table.sql */; };
+		516FDADF1E07C3FF00413CA3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FDACF1E07C3FF00413CA3 /* FMDatabase.m */; };
+		516FDAE01E07C3FF00413CA3 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FDAD11E07C3FF00413CA3 /* FMDatabaseAdditions.m */; };
+		516FDAE11E07C3FF00413CA3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FDAD31E07C3FF00413CA3 /* FMDatabasePool.m */; };
+		516FDAE21E07C3FF00413CA3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FDAD51E07C3FF00413CA3 /* FMDatabaseQueue.m */; };
+		516FDAE31E07C3FF00413CA3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FDAD81E07C3FF00413CA3 /* FMResultSet.m */; };
+		516FDAE41E07C3FF00413CA3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516FDAD91E07C3FF00413CA3 /* Info.plist */; };
+		516FDAE71E07C55C00413CA3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 516FDAE61E07C55C00413CA3 /* libsqlite3.0.tbd */; };
+		516FDAEA1E07CB1500413CA3 /* XWAlarmDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 516FDAE91E07CB1500413CA3 /* XWAlarmDAO.m */; };
+		51EE60871E0A702200B27CB5 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51EE60851E0A702200B27CB5 /* selected@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5161FE791E0111D900028DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5161FE571E0111D900028DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5161FE5E1E0111D900028DFE;
+			remoteInfo = AlarmClock;
+		};
+		5161FE841E0111D900028DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5161FE571E0111D900028DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5161FE5E1E0111D900028DFE;
+			remoteInfo = AlarmClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5108BF291E0CC20600EB9FB9 /* 纯音乐花的秘语.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "纯音乐花的秘语.mp3"; sourceTree = "<group>"; };
+		5108BF2A1E0CC20600EB9FB9 /* 涟漪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "涟漪.mp3"; sourceTree = "<group>"; };
+		5108BF2B1E0CC20600EB9FB9 /* 莫扎特摇篮曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "莫扎特摇篮曲.mp3"; sourceTree = "<group>"; };
+		5108BF2C1E0CC20600EB9FB9 /* 泉水叮咚响.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "泉水叮咚响.mp3"; sourceTree = "<group>"; };
+		5108BF2D1E0CC20600EB9FB9 /* 维也纳绮想曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "维也纳绮想曲.mp3"; sourceTree = "<group>"; };
+		5108BF2E1E0CC20600EB9FB9 /* 夕阳.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "夕阳.mp3"; sourceTree = "<group>"; };
+		5108BF2F1E0CC20600EB9FB9 /* 夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "夜曲.mp3"; sourceTree = "<group>"; };
+		5108BF301E0CC20600EB9FB9 /* Invitatio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Invitatio.mp3; sourceTree = "<group>"; };
+		5108BF311E0CC20600EB9FB9 /* wakeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wakeup.mp3; sourceTree = "<group>"; };
+		5124B8CB1E231F4D0068809B /* NSString+Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Alarm.h"; sourceTree = "<group>"; };
+		5124B8CC1E231F4D0068809B /* NSString+Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Alarm.m"; sourceTree = "<group>"; };
+		5124B8CD1E231F4D0068809B /* XWAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarm.h; sourceTree = "<group>"; };
+		5124B8CE1E231F4D0068809B /* XWAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarm.m; sourceTree = "<group>"; };
+		5124B8CF1E231F4D0068809B /* XWAlarmManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarmManager.h; sourceTree = "<group>"; };
+		5124B8D01E231F4D0068809B /* XWAlarmManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarmManager.m; sourceTree = "<group>"; };
+		5124B8D11E231F4D0068809B /* XWAlarmListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarmListCell.h; sourceTree = "<group>"; };
+		5124B8D21E231F4D0068809B /* XWAlarmListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarmListCell.m; sourceTree = "<group>"; };
+		5124B8D31E231F4D0068809B /* XWAlarmListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWAlarmListCell.xib; sourceTree = "<group>"; };
+		5124B8D41E231F4D0068809B /* XWAlarmPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarmPickerCell.h; sourceTree = "<group>"; };
+		5124B8D51E231F4D0068809B /* XWAlarmPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarmPickerCell.m; sourceTree = "<group>"; };
+		5124B8D61E231F4D0068809B /* XWAlarmPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWAlarmPickerCell.xib; sourceTree = "<group>"; };
+		5124B8D71E231F4D0068809B /* XWAlarmSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarmSettingCell.h; sourceTree = "<group>"; };
+		5124B8D81E231F4D0068809B /* XWAlarmSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarmSettingCell.m; sourceTree = "<group>"; };
+		5124B8D91E231F4D0068809B /* XWAlarmSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWAlarmSettingCell.xib; sourceTree = "<group>"; };
+		5124B8DA1E231F4D0068809B /* XWAlarmListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarmListTableViewController.h; sourceTree = "<group>"; };
+		5124B8DB1E231F4D0068809B /* XWAlarmListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarmListTableViewController.m; sourceTree = "<group>"; };
+		5124B8DC1E231F4D0068809B /* XWAlarmListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWAlarmListTableViewController.xib; sourceTree = "<group>"; };
+		5124B8DD1E231F4D0068809B /* XWAlarmSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarmSettingTableViewController.h; sourceTree = "<group>"; };
+		5124B8DE1E231F4D0068809B /* XWAlarmSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarmSettingTableViewController.m; sourceTree = "<group>"; };
+		5124B8DF1E231F4D0068809B /* XWAlarmSettingTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XWAlarmSettingTableViewController.xib; sourceTree = "<group>"; };
+		5124B8E01E231F4D0068809B /* XWSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWSelectionTableViewController.h; sourceTree = "<group>"; };
+		5124B8E11E231F4D0068809B /* XWSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWSelectionTableViewController.m; sourceTree = "<group>"; };
+		51296BE81E14FF2300648ED7 /* DXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAlertView.h; sourceTree = "<group>"; };
+		51296BE91E14FF2300648ED7 /* DXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXAlertView.m; sourceTree = "<group>"; };
+		5161FE5F1E0111D900028DFE /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5161FE631E0111D900028DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5161FE651E0111D900028DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5161FE661E0111D900028DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5161FE6E1E0111D900028DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5161FE711E0111D900028DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5161FE731E0111D900028DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5161FE781E0111D900028DFE /* AlarmClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5161FE7C1E0111D900028DFE /* AlarmClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmClockTests.m; sourceTree = "<group>"; };
+		5161FE7E1E0111D900028DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5161FE831E0111D900028DFE /* AlarmClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5161FE871E0111D900028DFE /* AlarmClockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmClockUITests.m; sourceTree = "<group>"; };
+		5161FE891E0111D900028DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516E37621E09060600D1AAC7 /* AlarmClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlarmClock.entitlements; sourceTree = "<group>"; };
+		516FDABB1E07BB0A00413CA3 /* XWDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDataBaseManager.h; sourceTree = "<group>"; };
+		516FDABC1E07BB0A00413CA3 /* XWDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDataBaseManager.m; sourceTree = "<group>"; };
+		516FDABE1E07BB3500413CA3 /* create_table.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_table.sql; sourceTree = "<group>"; };
+		516FDACE1E07C3FF00413CA3 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		516FDACF1E07C3FF00413CA3 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		516FDAD01E07C3FF00413CA3 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		516FDAD11E07C3FF00413CA3 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		516FDAD21E07C3FF00413CA3 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		516FDAD31E07C3FF00413CA3 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		516FDAD41E07C3FF00413CA3 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		516FDAD51E07C3FF00413CA3 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		516FDAD61E07C3FF00413CA3 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		516FDAD71E07C3FF00413CA3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		516FDAD81E07C3FF00413CA3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		516FDAD91E07C3FF00413CA3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516FDAE61E07C55C00413CA3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		516FDAE81E07CB1500413CA3 /* XWAlarmDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWAlarmDAO.h; sourceTree = "<group>"; };
+		516FDAE91E07CB1500413CA3 /* XWAlarmDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWAlarmDAO.m; sourceTree = "<group>"; };
+		51EE60851E0A702200B27CB5 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5161FE5C1E0111D900028DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516FDAE71E07C55C00413CA3 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5161FE751E0111D900028DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5161FE801E0111D900028DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51296BE71E14FF2300648ED7 /* DXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				51296BE81E14FF2300648ED7 /* DXAlertView.h */,
+				51296BE91E14FF2300648ED7 /* DXAlertView.m */,
+			);
+			path = DXAlertView;
+			sourceTree = "<group>";
+		};
+		5159F7C41E03D9A300610A04 /* FMDB2.6.2 */ = {
+			isa = PBXGroup;
+			children = (
+				516FDACD1E07C3FF00413CA3 /* fmdb */,
+			);
+			path = FMDB2.6.2;
+			sourceTree = "<group>";
+		};
+		5161FE561E0111D900028DFE = {
+			isa = PBXGroup;
+			children = (
+				5161FE611E0111D900028DFE /* AlarmClock */,
+				5161FE7B1E0111D900028DFE /* AlarmClockTests */,
+				5161FE861E0111D900028DFE /* AlarmClockUITests */,
+				5161FE601E0111D900028DFE /* Products */,
+				516FDAE51E07C55C00413CA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5161FE601E0111D900028DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5161FE5F1E0111D900028DFE /* AlarmClock.app */,
+				5161FE781E0111D900028DFE /* AlarmClockTests.xctest */,
+				5161FE831E0111D900028DFE /* AlarmClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5161FE611E0111D900028DFE /* AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				516E37621E09060600D1AAC7 /* AlarmClock.entitlements */,
+				5161FEBE1E0158DD00028DFE /* XWAlarmClock */,
+				5161FE651E0111D900028DFE /* AppDelegate.h */,
+				5161FE661E0111D900028DFE /* AppDelegate.m */,
+				5161FE6E1E0111D900028DFE /* Assets.xcassets */,
+				5161FE701E0111D900028DFE /* LaunchScreen.storyboard */,
+				5161FE731E0111D900028DFE /* Info.plist */,
+				5161FE621E0111D900028DFE /* Supporting Files */,
+			);
+			path = AlarmClock;
+			sourceTree = "<group>";
+		};
+		5161FE621E0111D900028DFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5161FE631E0111D900028DFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5161FE7B1E0111D900028DFE /* AlarmClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				5161FE7C1E0111D900028DFE /* AlarmClockTests.m */,
+				5161FE7E1E0111D900028DFE /* Info.plist */,
+			);
+			path = AlarmClockTests;
+			sourceTree = "<group>";
+		};
+		5161FE861E0111D900028DFE /* AlarmClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5161FE871E0111D900028DFE /* AlarmClockUITests.m */,
+				5161FE891E0111D900028DFE /* Info.plist */,
+			);
+			path = AlarmClockUITests;
+			sourceTree = "<group>";
+		};
+		5161FEBE1E0158DD00028DFE /* XWAlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				5124B8CB1E231F4D0068809B /* NSString+Alarm.h */,
+				5124B8CC1E231F4D0068809B /* NSString+Alarm.m */,
+				5124B8CD1E231F4D0068809B /* XWAlarm.h */,
+				5124B8CE1E231F4D0068809B /* XWAlarm.m */,
+				5124B8CF1E231F4D0068809B /* XWAlarmManager.h */,
+				5124B8D01E231F4D0068809B /* XWAlarmManager.m */,
+				5124B8D11E231F4D0068809B /* XWAlarmListCell.h */,
+				5124B8D21E231F4D0068809B /* XWAlarmListCell.m */,
+				5124B8D31E231F4D0068809B /* XWAlarmListCell.xib */,
+				5124B8D41E231F4D0068809B /* XWAlarmPickerCell.h */,
+				5124B8D51E231F4D0068809B /* XWAlarmPickerCell.m */,
+				5124B8D61E231F4D0068809B /* XWAlarmPickerCell.xib */,
+				5124B8D71E231F4D0068809B /* XWAlarmSettingCell.h */,
+				5124B8D81E231F4D0068809B /* XWAlarmSettingCell.m */,
+				5124B8D91E231F4D0068809B /* XWAlarmSettingCell.xib */,
+				5124B8DA1E231F4D0068809B /* XWAlarmListTableViewController.h */,
+				5124B8DB1E231F4D0068809B /* XWAlarmListTableViewController.m */,
+				5124B8DC1E231F4D0068809B /* XWAlarmListTableViewController.xib */,
+				5124B8DD1E231F4D0068809B /* XWAlarmSettingTableViewController.h */,
+				5124B8DE1E231F4D0068809B /* XWAlarmSettingTableViewController.m */,
+				5124B8DF1E231F4D0068809B /* XWAlarmSettingTableViewController.xib */,
+				5124B8E01E231F4D0068809B /* XWSelectionTableViewController.h */,
+				5124B8E11E231F4D0068809B /* XWSelectionTableViewController.m */,
+				51296BE71E14FF2300648ED7 /* DXAlertView */,
+				51EE60831E0A702200B27CB5 /* resource */,
+				516FDABA1E07BAC900413CA3 /* Cache */,
+				5159F7C41E03D9A300610A04 /* FMDB2.6.2 */,
+			);
+			path = XWAlarmClock;
+			sourceTree = "<group>";
+		};
+		516FDABA1E07BAC900413CA3 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				516FDABE1E07BB3500413CA3 /* create_table.sql */,
+				516FDABB1E07BB0A00413CA3 /* XWDataBaseManager.h */,
+				516FDABC1E07BB0A00413CA3 /* XWDataBaseManager.m */,
+				516FDAE81E07CB1500413CA3 /* XWAlarmDAO.h */,
+				516FDAE91E07CB1500413CA3 /* XWAlarmDAO.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		516FDACD1E07C3FF00413CA3 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				516FDACE1E07C3FF00413CA3 /* FMDatabase.h */,
+				516FDACF1E07C3FF00413CA3 /* FMDatabase.m */,
+				516FDAD01E07C3FF00413CA3 /* FMDatabaseAdditions.h */,
+				516FDAD11E07C3FF00413CA3 /* FMDatabaseAdditions.m */,
+				516FDAD21E07C3FF00413CA3 /* FMDatabasePool.h */,
+				516FDAD31E07C3FF00413CA3 /* FMDatabasePool.m */,
+				516FDAD41E07C3FF00413CA3 /* FMDatabaseQueue.h */,
+				516FDAD51E07C3FF00413CA3 /* FMDatabaseQueue.m */,
+				516FDAD61E07C3FF00413CA3 /* FMDB.h */,
+				516FDAD71E07C3FF00413CA3 /* FMResultSet.h */,
+				516FDAD81E07C3FF00413CA3 /* FMResultSet.m */,
+				516FDAD91E07C3FF00413CA3 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		516FDAE51E07C55C00413CA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				516FDAE61E07C55C00413CA3 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51EE60831E0A702200B27CB5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5108BF291E0CC20600EB9FB9 /* 纯音乐花的秘语.mp3 */,
+				5108BF2A1E0CC20600EB9FB9 /* 涟漪.mp3 */,
+				5108BF2B1E0CC20600EB9FB9 /* 莫扎特摇篮曲.mp3 */,
+				5108BF2C1E0CC20600EB9FB9 /* 泉水叮咚响.mp3 */,
+				5108BF2D1E0CC20600EB9FB9 /* 维也纳绮想曲.mp3 */,
+				5108BF2E1E0CC20600EB9FB9 /* 夕阳.mp3 */,
+				5108BF2F1E0CC20600EB9FB9 /* 夜曲.mp3 */,
+				5108BF301E0CC20600EB9FB9 /* Invitatio.mp3 */,
+				5108BF311E0CC20600EB9FB9 /* wakeup.mp3 */,
+				51EE60851E0A702200B27CB5 /* selected@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5161FE5E1E0111D900028DFE /* AlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5161FE8C1E0111D900028DFE /* Build configuration list for PBXNativeTarget "AlarmClock" */;
+			buildPhases = (
+				5161FE5B1E0111D900028DFE /* Sources */,
+				5161FE5C1E0111D900028DFE /* Frameworks */,
+				5161FE5D1E0111D900028DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmClock;
+			productName = AlarmClock;
+			productReference = 5161FE5F1E0111D900028DFE /* AlarmClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5161FE771E0111D900028DFE /* AlarmClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5161FE8F1E0111D900028DFE /* Build configuration list for PBXNativeTarget "AlarmClockTests" */;
+			buildPhases = (
+				5161FE741E0111D900028DFE /* Sources */,
+				5161FE751E0111D900028DFE /* Frameworks */,
+				5161FE761E0111D900028DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5161FE7A1E0111D900028DFE /* PBXTargetDependency */,
+			);
+			name = AlarmClockTests;
+			productName = AlarmClockTests;
+			productReference = 5161FE781E0111D900028DFE /* AlarmClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5161FE821E0111D900028DFE /* AlarmClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5161FE921E0111D900028DFE /* Build configuration list for PBXNativeTarget "AlarmClockUITests" */;
+			buildPhases = (
+				5161FE7F1E0111D900028DFE /* Sources */,
+				5161FE801E0111D900028DFE /* Frameworks */,
+				5161FE811E0111D900028DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5161FE851E0111D900028DFE /* PBXTargetDependency */,
+			);
+			name = AlarmClockUITests;
+			productName = AlarmClockUITests;
+			productReference = 5161FE831E0111D900028DFE /* AlarmClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5161FE571E0111D900028DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = weixuewu;
+				TargetAttributes = {
+					5161FE5E1E0111D900028DFE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J63C9RV7P9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					5161FE771E0111D900028DFE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J63C9RV7P9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5161FE5E1E0111D900028DFE;
+					};
+					5161FE821E0111D900028DFE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J63C9RV7P9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5161FE5E1E0111D900028DFE;
+					};
+				};
+			};
+			buildConfigurationList = 5161FE5A1E0111D900028DFE /* Build configuration list for PBXProject "AlarmClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5161FE561E0111D900028DFE;
+			productRefGroup = 5161FE601E0111D900028DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5161FE5E1E0111D900028DFE /* AlarmClock */,
+				5161FE771E0111D900028DFE /* AlarmClockTests */,
+				5161FE821E0111D900028DFE /* AlarmClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5161FE5D1E0111D900028DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5124B8F41E231F4D0068809B /* XWAlarmPickerCell.xib in Resources */,
+				51EE60871E0A702200B27CB5 /* selected@2x.png in Resources */,
+				5124B9001E231F4D0068809B /* XWAlarmListTableViewController.xib in Resources */,
+				5108BF351E0CC20600EB9FB9 /* 泉水叮咚响.mp3 in Resources */,
+				5108BF331E0CC20600EB9FB9 /* 涟漪.mp3 in Resources */,
+				5124B9061E231F4D0068809B /* XWAlarmSettingTableViewController.xib in Resources */,
+				5124B8EE1E231F4D0068809B /* XWAlarmListCell.xib in Resources */,
+				5108BF321E0CC20600EB9FB9 /* 纯音乐花的秘语.mp3 in Resources */,
+				516FDABF1E07BB3500413CA3 /* create_table.sql in Resources */,
+				5108BF3A1E0CC20600EB9FB9 /* wakeup.mp3 in Resources */,
+				5124B8FA1E231F4D0068809B /* XWAlarmSettingCell.xib in Resources */,
+				5108BF341E0CC20600EB9FB9 /* 莫扎特摇篮曲.mp3 in Resources */,
+				5161FE721E0111D900028DFE /* LaunchScreen.storyboard in Resources */,
+				5108BF381E0CC20600EB9FB9 /* 夜曲.mp3 in Resources */,
+				5108BF361E0CC20600EB9FB9 /* 维也纳绮想曲.mp3 in Resources */,
+				5161FE6F1E0111D900028DFE /* Assets.xcassets in Resources */,
+				5108BF371E0CC20600EB9FB9 /* 夕阳.mp3 in Resources */,
+				516FDAE41E07C3FF00413CA3 /* Info.plist in Resources */,
+				5108BF391E0CC20600EB9FB9 /* Invitatio.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5161FE761E0111D900028DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5124B8F51E231F4D0068809B /* XWAlarmPickerCell.xib in Resources */,
+				5124B8FB1E231F4D0068809B /* XWAlarmSettingCell.xib in Resources */,
+				5124B9011E231F4D0068809B /* XWAlarmListTableViewController.xib in Resources */,
+				5124B8EF1E231F4D0068809B /* XWAlarmListCell.xib in Resources */,
+				5124B9071E231F4D0068809B /* XWAlarmSettingTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5161FE811E0111D900028DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5124B8F61E231F4D0068809B /* XWAlarmPickerCell.xib in Resources */,
+				5124B8FC1E231F4D0068809B /* XWAlarmSettingCell.xib in Resources */,
+				5124B9021E231F4D0068809B /* XWAlarmListTableViewController.xib in Resources */,
+				5124B8F01E231F4D0068809B /* XWAlarmListCell.xib in Resources */,
+				5124B9081E231F4D0068809B /* XWAlarmSettingTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5161FE5B1E0111D900028DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516FDAE11E07C3FF00413CA3 /* FMDatabasePool.m in Sources */,
+				5124B9091E231F4D0068809B /* XWSelectionTableViewController.m in Sources */,
+				5124B8E81E231F4D0068809B /* XWAlarmManager.m in Sources */,
+				516FDABD1E07BB0A00413CA3 /* XWDataBaseManager.m in Sources */,
+				5124B9031E231F4D0068809B /* XWAlarmSettingTableViewController.m in Sources */,
+				516FDAE21E07C3FF00413CA3 /* FMDatabaseQueue.m in Sources */,
+				516FDAEA1E07CB1500413CA3 /* XWAlarmDAO.m in Sources */,
+				5124B8E51E231F4D0068809B /* XWAlarm.m in Sources */,
+				516FDADF1E07C3FF00413CA3 /* FMDatabase.m in Sources */,
+				5124B8E21E231F4D0068809B /* NSString+Alarm.m in Sources */,
+				516FDAE01E07C3FF00413CA3 /* FMDatabaseAdditions.m in Sources */,
+				5124B8F71E231F4D0068809B /* XWAlarmSettingCell.m in Sources */,
+				516FDAE31E07C3FF00413CA3 /* FMResultSet.m in Sources */,
+				5124B8EB1E231F4D0068809B /* XWAlarmListCell.m in Sources */,
+				5161FE671E0111D900028DFE /* AppDelegate.m in Sources */,
+				5161FE641E0111D900028DFE /* main.m in Sources */,
+				51296BEA1E14FF2300648ED7 /* DXAlertView.m in Sources */,
+				5124B8FD1E231F4D0068809B /* XWAlarmListTableViewController.m in Sources */,
+				5124B8F11E231F4D0068809B /* XWAlarmPickerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5161FE741E0111D900028DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5124B90A1E231F4D0068809B /* XWSelectionTableViewController.m in Sources */,
+				5161FE7D1E0111D900028DFE /* AlarmClockTests.m in Sources */,
+				5124B8EC1E231F4D0068809B /* XWAlarmListCell.m in Sources */,
+				5124B8F21E231F4D0068809B /* XWAlarmPickerCell.m in Sources */,
+				5124B9041E231F4D0068809B /* XWAlarmSettingTableViewController.m in Sources */,
+				5124B8E61E231F4D0068809B /* XWAlarm.m in Sources */,
+				5124B8FE1E231F4D0068809B /* XWAlarmListTableViewController.m in Sources */,
+				5124B8F81E231F4D0068809B /* XWAlarmSettingCell.m in Sources */,
+				5124B8E91E231F4D0068809B /* XWAlarmManager.m in Sources */,
+				5124B8E31E231F4D0068809B /* NSString+Alarm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5161FE7F1E0111D900028DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5124B90B1E231F4D0068809B /* XWSelectionTableViewController.m in Sources */,
+				5161FE881E0111D900028DFE /* AlarmClockUITests.m in Sources */,
+				5124B8ED1E231F4D0068809B /* XWAlarmListCell.m in Sources */,
+				5124B8F31E231F4D0068809B /* XWAlarmPickerCell.m in Sources */,
+				5124B9051E231F4D0068809B /* XWAlarmSettingTableViewController.m in Sources */,
+				5124B8E71E231F4D0068809B /* XWAlarm.m in Sources */,
+				5124B8FF1E231F4D0068809B /* XWAlarmListTableViewController.m in Sources */,
+				5124B8F91E231F4D0068809B /* XWAlarmSettingCell.m in Sources */,
+				5124B8EA1E231F4D0068809B /* XWAlarmManager.m in Sources */,
+				5124B8E41E231F4D0068809B /* NSString+Alarm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5161FE7A1E0111D900028DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5161FE5E1E0111D900028DFE /* AlarmClock */;
+			targetProxy = 5161FE791E0111D900028DFE /* PBXContainerItemProxy */;
+		};
+		5161FE851E0111D900028DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5161FE5E1E0111D900028DFE /* AlarmClock */;
+			targetProxy = 5161FE841E0111D900028DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5161FE701E0111D900028DFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5161FE711E0111D900028DFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5161FE8A1E0111D900028DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5161FE8B1E0111D900028DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5161FE8D1E0111D900028DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlarmClock/AlarmClock.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J63C9RV7P9;
+				INFOPLIST_FILE = AlarmClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weixuewu.AlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5161FE8E1E0111D900028DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlarmClock/AlarmClock.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J63C9RV7P9;
+				INFOPLIST_FILE = AlarmClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weixuewu.AlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5161FE901E0111D900028DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J63C9RV7P9;
+				INFOPLIST_FILE = AlarmClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weixuewu.AlarmClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlarmClock.app/AlarmClock";
+			};
+			name = Debug;
+		};
+		5161FE911E0111D900028DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J63C9RV7P9;
+				INFOPLIST_FILE = AlarmClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weixuewu.AlarmClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlarmClock.app/AlarmClock";
+			};
+			name = Release;
+		};
+		5161FE931E0111D900028DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J63C9RV7P9;
+				INFOPLIST_FILE = AlarmClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weixuewu.AlarmClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlarmClock;
+			};
+			name = Debug;
+		};
+		5161FE941E0111D900028DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J63C9RV7P9;
+				INFOPLIST_FILE = AlarmClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weixuewu.AlarmClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlarmClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5161FE5A1E0111D900028DFE /* Build configuration list for PBXProject "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5161FE8A1E0111D900028DFE /* Debug */,
+				5161FE8B1E0111D900028DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5161FE8C1E0111D900028DFE /* Build configuration list for PBXNativeTarget "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5161FE8D1E0111D900028DFE /* Debug */,
+				5161FE8E1E0111D900028DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5161FE8F1E0111D900028DFE /* Build configuration list for PBXNativeTarget "AlarmClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5161FE901E0111D900028DFE /* Debug */,
+				5161FE911E0111D900028DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5161FE921E0111D900028DFE /* Build configuration list for PBXNativeTarget "AlarmClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5161FE931E0111D900028DFE /* Debug */,
+				5161FE941E0111D900028DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5161FE571E0111D900028DFE /* Project object */;
+}
